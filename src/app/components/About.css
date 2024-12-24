@@ -1,0 +1,41 @@
+#about {
+}
+
+.bio-container {
+  padding-bottom: 2em;
+  margin-bottom: 4em;
+  border-bottom: 2px solid var(--color1);
+}
+
+.container-skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  gap: 1.5em;
+  padding: 1em 2em;
+}
+
+.card-skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-skills img {
+  width: 3em;
+}
+
+.container-skills button {
+  background-color: transparent;
+  border: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .container-skills {
+    gap: 3em;
+    padding: 2em 4em;
+  }
+}

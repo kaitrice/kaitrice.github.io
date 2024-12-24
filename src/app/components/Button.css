@@ -1,0 +1,14 @@
+.link {
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, .6);
+  padding: 1em;
+  border-radius: 1em;
+  color: var(--accent);
+}
+
+.link-container {
+  display: inline-block;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s ease;
+  position: relative;
+}

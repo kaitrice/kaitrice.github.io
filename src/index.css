@@ -1,10 +1,42 @@
-body {
+:root {
+  --color1: #F35695; 
+  --color2: #F8DBDB;
+  --color3: #264414;
+  --color4: #DDE255; 
+  --accent: #F98805; 
+}
+
+body, textarea, input, button {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-weight: 600;
+  font-size: calc(10px + 1vh);
+}
+
+h1, h2, h3, h4 {
+  font-weight: 800;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: calc(10px + 8vh);
+}
+
+h2 {
+  font-size: calc(10px + 6vh);
+}
+
+h3 {
+  font-size: calc(10px + 4vh);
+}
+
+h4 {
+  font-size: calc(10px + 2vh);
 }
 
 code {

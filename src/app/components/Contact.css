@@ -1,0 +1,50 @@
+#contact {
+}
+
+#contact > h2, #contact > p {
+  line-height: 1.2;
+}
+
+#contact > .form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em; 
+  width: 100%;
+  margin-top: 2em;
+  padding-bottom: 2em;
+  margin-bottom: 4em;
+  border-bottom: 2px solid var(--color2);
+}
+
+#contact input, #contact textarea {
+  width: 100%;
+  padding: 0.8em;
+  border: 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-button p {
+  margin: 0;
+  padding: 0;
+}
+
+.card-btn {
+  border: 0;
+  background-color: transparent;
+  
+}
+
+.footer-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+#resume {
+  margin: 100em;
+}
