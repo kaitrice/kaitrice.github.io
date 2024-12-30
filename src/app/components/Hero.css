@@ -1,0 +1,27 @@
+/* Default: Extra-small devices such as small phones (less than 640px) */
+#hero {
+  background-color: #282c34;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: var(--white);
+}
+
+/* Small devices such as large phones (640px and up) */
+@media only screen and (min-width: 640px) {  }
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 768px) { 
+  #hero {
+    min-height: 100vh;
+  }
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 1024px) {  }
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 1280px) {  }
