@@ -33,7 +33,7 @@ const data = [
     languages: ["git", "figma", "expo", "react", "nodejs", "firebase", "azure"],
     links: [
       { cta: "Watch Demo", url: "https://youtu.be/Ueqlpl4Sl4U" },
-      { cta: "Learn more", url: "https://github.com/kaitrice/panic-pal" },
+      { cta: "Learn More", url: "https://github.com/kaitrice/panic-pal" },
     ],
   },
   {
@@ -42,7 +42,7 @@ const data = [
     cover: deadwood,
     description: `Digital version of the board game 'Deadwood' using a GUI toolkit for Java applications. The project focuses on applying Object-Oriented Design (OOD) principles to create a robust and interactive game environment.`,
     languages: ["java"],
-    links: [{ cta: "Learn more", url: "https://github.com/kaitrice/deadwood" }],
+    links: [{ cta: "Learn More", url: "https://github.com/kaitrice/deadwood" }],
   },
   {
     name: "Color Match",
@@ -68,8 +68,8 @@ const data = [
       "typescript",
     ],
     links: [
-      { cta: "Watch demo", url: "https://youtube.com/shorts/_5EAGs0iQbY" },
-      { cta: "Learn more", url: "https://github.com/GearyER/WWXS" },
+      { cta: "Watch Demo", url: "https://youtube.com/shorts/_5EAGs0iQbY" },
+      { cta: "Learn More", url: "https://github.com/GearyER/WWXS" },
     ],
   },
 ];
