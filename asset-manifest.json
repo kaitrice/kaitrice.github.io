@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.558ff321.css",
-    "main.js": "/static/js/main.8f2ddfb0.js",
+    "main.js": "/static/js/main.7506a33d.js",
     "static/js/488.9561f9b8.chunk.js": "/static/js/488.9561f9b8.chunk.js",
     "static/media/panic-pal.png": "/static/media/panic-pal.34b68fbd28f3ad106cb1.png",
     "static/media/deadwood.png": "/static/media/deadwood.cca1e020c08ba3bc80c3.png",
@@ -33,11 +33,11 @@
     "static/media/icons8-zendesk.svg": "/static/media/icons8-zendesk.a10010adbf8d30149cbdb25f851197e9.svg",
     "static/media/icons8-azure.svg": "/static/media/icons8-azure.ff5a9fe776f2b480d91804ecc122fe3b.svg",
     "main.558ff321.css.map": "/static/css/main.558ff321.css.map",
-    "main.8f2ddfb0.js.map": "/static/js/main.8f2ddfb0.js.map",
+    "main.7506a33d.js.map": "/static/js/main.7506a33d.js.map",
     "488.9561f9b8.chunk.js.map": "/static/js/488.9561f9b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.558ff321.css",
-    "static/js/main.8f2ddfb0.js"
+    "static/js/main.7506a33d.js"
   ]
 }
