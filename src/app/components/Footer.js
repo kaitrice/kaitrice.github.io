@@ -3,8 +3,8 @@ import Icon from './Icon';
 import { motion } from "motion/react";
 
 const socials = [
-  { url: "", icon: <Icon name={"linkedin"} /> },
-  { url: "", icon: <Icon name={"github"} /> },
+  { url: "https://linked.in/kaitrice/", icon: <Icon name={"linkedin"} /> },
+  { url: "https://github.com/kaitrice/", icon: <Icon name={"github"} /> },
 ]
 
 export default function Footer() {
