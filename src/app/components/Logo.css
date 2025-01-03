@@ -1,0 +1,50 @@
+.logo {
+  width: 50%;
+  max-width: 300px;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 768px) { 
+  .logo {
+    width: 70%;
+    max-width: 400px;
+  }
+}
+
+/* Large devices such as desktops (1024px and up) */
+@media only screen and (min-width: 1024px) { 
+  .logo {
+    width: 100%;
+    max-width: 512px;
+  }
+}
+
+.logo-morphing {
+  width: 50%;
+  max-width: 300px;
+  margin: 0 auto;
+  display: block;
+  transition: transform 0.3s ease-in-out;
+}
+
+.logo-morphing:hover {
+  transform: scale(1.1);
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 768px) {
+  .logo-morphing {
+    width: 70%;
+    max-width: 400px;
+  }
+}
+
+/* Large devices such as desktops (1024px and up) */
+@media only screen and (min-width: 1024px) {
+  .logo-morphing {
+    width: 100%;
+    max-width: 512px;
+  }
+}

@@ -1,20 +1,22 @@
 import './Hero.css';
+import AnimateLogo from './Logo';
+import { motion } from "motion/react";
 
-function Hero() {
+export default function Hero() {
   return (
     <header id="hero">
-      <h1>Kait Rice</h1>
-      <h2>Full-Stack Developer</h2>
-      {/* <a
-        className="link"
-        href="https://reactjs.org"
-        target="_blank"
-        rel="noopener noreferrer"
+      <motion.div 
+        id='bio'
+        initial={{ opacity: 0, scale: 0 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 1 }}
       >
-        Learn more
-      </a> */}
+        <AnimateLogo />
+        <h1>Kait Rice</h1>
+        <h2>Full-Stack Developer</h2>
+      </motion.div>
     </header>
   );
 }
 
-export default Hero;

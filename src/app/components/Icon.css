@@ -1,0 +1,42 @@
+.icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: .5em;
+}
+
+.icon img {
+  width: 48px;
+  height: 48px;
+}
+
+.icon p {
+  font-size: calc(7px + 1vmin);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 768px) { 
+  .icon {
+    width: 5em;
+    opacity: 60%;
+    scale: .8;
+    transition-duration: 300ms;
+  }
+
+  .icon p {
+    opacity: 0;
+  }
+  
+  .icon:hover {
+    opacity: 100%;
+    scale: 1.1;
+    padding-bottom: 1em;
+  }
+
+  .icon:hover p {
+    opacity: 1;
+  }
+}

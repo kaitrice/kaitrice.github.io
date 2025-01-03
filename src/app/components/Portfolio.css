@@ -1,0 +1,11 @@
+#portfolio {
+  background-color: var(--pink);
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--orange);
+  padding: 4em;
+  box-sizing: border-box;
+}

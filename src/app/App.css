@@ -1,7 +1,25 @@
-.App {
+#App {
   text-align: center;
 }
 
 .link {
-  color: #61dafb;
+  background-color: var(--cream);
+  color: var(--blue);
+  padding: 1em;
+  border-radius: 1em;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: calc(10px + 1vmin);
+  transition-duration: 300ms;
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 768px) { 
+  .link:hover {
+    font-size: calc(12px + 1vmin);
+  }
+  
+  .link:focus {
+    font-size: calc(8px + 1vmin);
+  }
 }
