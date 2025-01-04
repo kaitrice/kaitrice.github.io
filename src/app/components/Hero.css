@@ -7,6 +7,16 @@
   align-items: center;
   justify-content: center;
   color: var(--mint);
+  padding: 0 2em;
+}
+
+#hero h1 {
+  margin-bottom: 1em;
+}
+
+#name {
+  color: var(--pink);
+  text-decoration: underline;
 }
 
 /* Small devices such as large phones (640px and up) */

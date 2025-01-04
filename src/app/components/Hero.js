@@ -1,5 +1,5 @@
 import './Hero.css';
-import AnimateLogo from './Logo';
+// import AnimateLogo from './Logo';
 import { motion } from "motion/react";
 
 export default function Hero() {
@@ -12,9 +12,9 @@ export default function Hero() {
         viewport={{ once: true }}
         transition={{ duration: 1 }}
       >
-        <AnimateLogo />
-        <h1>Kait Rice</h1>
-        <h2>Full-Stack Developer</h2>
+        {/* <AnimateLogo /> */}
+        <h1>Hi there! I'm <span id='name'>Kait Rice</span>,</h1>
+        <h2>a Full-Stack Developer<br/>based in the Pacific Northwest!</h2>
       </motion.div>
     </header>
   );

@@ -6,8 +6,9 @@
   align-items: center;
   justify-content: center;
   color: var(--cream);
-  padding: 0 5em;
+  padding: 4em;
 }
+
 
 #bio {
   display: flex;
@@ -15,4 +16,13 @@
   align-items: center;
   justify-content: center;
   gap: 1em;
+}
+
+/* Hobbies */
+#cats {
+  cursor:url(../../assets/cursors/orangecath.png), auto;
+}
+
+#redbull {
+  cursor:url(../../assets/cursors/redbull.png), auto;
 }

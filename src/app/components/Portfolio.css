@@ -6,6 +6,6 @@
   align-items: center;
   justify-content: center;
   color: var(--orange);
-  padding: 4em;
+  padding: 5em 4em;
   box-sizing: border-box;
 }

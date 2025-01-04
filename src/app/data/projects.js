@@ -15,26 +15,37 @@ const data = [
     cover: safetyHub,
     description: `The Safety Hub app is a mobile resource center for parents, offering region-specific car seat safety information and support. Built with React Native and Expo, it features offline access, real-time updates, and integrations with BigCommerce, Zendesk, and Firebase APIs. The app combines user-friendly design with reliable data to empower parents in making informed decisions.`,
     languages: [
+      // "git", 
       "figma",
-      "expo",
       "react",
-      "nodejs",
+      "expo",
+      // "nodejs",
+      "bigcommerce",
+      "zendesk",
       "firebase",
-      // "bigcommerce",
-      // "zendesk",
     ],
     links: [],
+    year: 2024,
   },
   {
     name: "Panic Pal",
     rank: 10,
     cover: panicPal,
     description: `Mobile app aiming to provide support for individuals experiencing panic attacks. Using OpenAI-powered chatbot designed to offer empathetic and supportive conversations to help manage panic attacks effectively.`,
-    languages: ["git", "figma", "expo", "react", "nodejs", "firebase", "azure"],
+    languages: [
+      "git", 
+      "figma", 
+      "expo", 
+      "react", 
+      "nodejs", 
+      "firebase", 
+      "azure",
+    ],
     links: [
       { cta: "Watch Demo", url: "https://youtu.be/Ueqlpl4Sl4U" },
       { cta: "Learn More", url: "https://github.com/kaitrice/panic-pal" },
     ],
+    year: 2023,
   },
   {
     name: "Deadwood",
@@ -51,6 +62,7 @@ const data = [
     description: `A color-guessing game designed to challenge your perception of color shades. It provides an engaging way to test and improve color recognition skills through intuitive gameplay.`,
     languages: ["javascript", "css", "html5"],
     links: [],
+    year: 2023,
   },
   {
     name: "Water Weather Station",
@@ -71,6 +83,7 @@ const data = [
       { cta: "Watch Demo", url: "https://youtube.com/shorts/_5EAGs0iQbY" },
       { cta: "Learn More", url: "https://github.com/GearyER/WWXS" },
     ],
+    year: 2023,
   },
 ];
 
@@ -99,12 +112,12 @@ export default function Projects() {
           <img src={item.cover} alt={`${item.name} project cover`} />
           <div>
             <h4>{item.name}</h4>
-            <p>{item.description}</p>
             <div className="project-langs">
               {item.languages.map((lang, index) => (
                 <Icon key={index} name={lang} />
               ))}
             </div>
+            <p>{item.description}</p>
             <div className="project-links">
               {item.links.map((link, index) => (
                 <a

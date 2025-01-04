@@ -1,13 +1,34 @@
 import './Header.css';
 import { motion, useSpring, useScroll } from "motion/react"
+import logo from '../../assets/logo64.svg'
+// import fullLogo from '../../assets/full-logo.svg'
+
+const navigation = [
+  {name: "Home", id: "#"},
+  {name: "About", id: "#about"},
+  {name: "Portfolio", id: "#portfolio"},
+  {name: "Contact", id: "#footer"},
+]
 
 export default function Header() {
   return (
     <div id='header'>
-      {/* <div className='nav-container'>
-        <h5>Kait Rice</h5>
-        <div className='nav'></div>
-      </div> */}
+      <div className='content'>
+        {/* <img src={logo} alt='KR logo'/> */}
+        <div id='logo' />
+        <div className='nav-container'>
+          {navigation.map((item, index) => (
+            <a
+              key={index}
+              className="nav-item"
+              href={item.id}
+              rel="noopener noreferrer"
+            >
+              {item.name}
+            </a>
+          ))}
+        </div>
+      </div>
       <ProgressBar />
     </div>
   );

@@ -6,6 +6,7 @@
   align-items: center;
   justify-content: center;
   color: var(--blue);
+  padding: 2em;
 }
 
 .socials {
@@ -18,13 +19,24 @@
 
 .social {
   text-decoration: none;
-  padding-top: 1.5em;
+  margin-top: 1.5em;
   color: var(--blue);
+}
+
+.disclaimer {
+  margin-top: 2em;
+}
+
+.small {
+  font-size: calc(8px + 1vmin); 
+  font-style: italic;
 }
 
 /* Medium devices such as tablets (768px and up) */
 @media only screen and (min-width: 768px) { 
   #footer {
     min-height: 100vh;
+    padding: 1em;
   }
+  
 }
