@@ -1,7 +1,7 @@
 import "./Skills.css";
 import Icon from "./Icon";
 
-const skills = [ "javascript", "css", "docker", "bootstrap", "git",  "figma", "expo", "express", "html5", "react", "java", "mysql", "postgresql", "nodejs", "firebase", "wordpress", ];
+const skills = [ "javascript", "css", "docker", "bootstrap", "git",  "figma", "expo", "express", "html", "react", "java", "mysql", "postgresql", "php", "postman", "nodejs", "firebase", "wordpress", ];
 
 export default function Skills() {
   return (

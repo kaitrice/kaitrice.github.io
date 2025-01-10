@@ -25,6 +25,7 @@ import linkedin from "../../assets/icons/icons8-linkedin.svg";
 import github from "../../assets/icons/icons8-github.svg";
 import open from "../../assets/icons/up-right-from-square-solid.svg"
 import php from "../../assets/icons/php-logo-svgrepo-com.svg"
+import postman from "../../assets/icons/postman-icon-svgrepo-com.svg"
 
 const data = [
   { name: "javascript", icon: javascript },
@@ -52,6 +53,7 @@ const data = [
   { name: "github", icon: github },
   { name: "open", icon: open },
   { name: "php", icon: php },
+  { name: "postman", icon: postman },
 ];
 
 export default function Icon({ name, text }) {
