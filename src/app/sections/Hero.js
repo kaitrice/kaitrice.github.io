@@ -4,7 +4,12 @@ import pdf from '../../assets/KaitlynRice-Resume.pdf'
 import './Hero.css';
 import { motion } from "motion/react";
 
-const titles = ["Software Engineer", "Frontend Developer", "UX Designer"];
+const titles = [
+  "Software Engineer", 
+  "Frontend Developer", 
+  "Full-stack Developer", 
+  "UX Designer"
+];
 const socials = [
   { url: "https://linked.in/kaitrice/", icon: <Icon name={"linkedin"} /> },
   { url: "https://github.com/kaitrice/", icon: <Icon name={"github"} /> },

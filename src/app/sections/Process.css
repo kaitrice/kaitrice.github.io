@@ -1,0 +1,21 @@
+#process {
+  background-color: var(--orange);
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2em;
+  color: var(--cream);
+  padding: 4em 2em;
+}
+
+#process h4 { 
+  font-size: calc(18px + 1.5vmin);
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 768px) { 
+  #process {
+    padding: 6em 20%;
+  }
+}

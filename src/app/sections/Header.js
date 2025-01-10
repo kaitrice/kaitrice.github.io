@@ -6,6 +6,7 @@ import { motion, useSpring, useScroll } from "motion/react"
 const navigation = [
   {name: "Home", id: "#"},
   {name: "About", id: "#about"},
+  {name: "Process", id: "#process"},
   {name: "Portfolio", id: "#portfolio"},
   // {name: "Contact", id: "#footer"},
 ]

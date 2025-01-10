@@ -7,9 +7,10 @@ import Header from './sections/Header';
 import Hero from './sections/Hero';
 // import Skills from './data/skills';
 import { MotionConfig } from "framer-motion"
+import Process from './sections/Process';
 
 // const data = [<Hero />, <About />, <Skills />, <Portfolio />, <Footer />];
-const data = [<Hero />, <AboutMe />, <Portfolio />,<Footer />];
+const data = [<Hero />, <AboutMe />, <Process />, <Portfolio />,<Footer />];
 
 function App() {
   return (
