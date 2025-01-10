@@ -1,13 +1,13 @@
 import './Header.css';
 import { motion, useSpring, useScroll } from "motion/react"
-import logo from '../../assets/logo64.svg'
+// import logo from '../../assets/logo64.svg'
 // import fullLogo from '../../assets/full-logo.svg'
 
 const navigation = [
   {name: "Home", id: "#"},
   {name: "About", id: "#about"},
   {name: "Portfolio", id: "#portfolio"},
-  {name: "Contact", id: "#footer"},
+  // {name: "Contact", id: "#footer"},
 ]
 
 export default function Header() {

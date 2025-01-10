@@ -23,6 +23,7 @@ import angular from "../../assets/icons/icons8-angularjs.svg";
 import zendesk from "../../assets/icons/icons8-zendesk.svg";
 import linkedin from "../../assets/icons/icons8-linkedin.svg";
 import github from "../../assets/icons/icons8-github.svg";
+import open from "../../assets/icons/up-right-from-square-solid.svg"
 
 const data = [
   { name: "javascript", icon: javascript },
@@ -48,9 +49,10 @@ const data = [
   { name: "zendesk", icon: zendesk },
   { name: "linkedin", icon: linkedin },
   { name: "github", icon: github },
+  { name: "open", icon: open },
 ];
 
-export default function Icon({ name }) {
+export default function Icon({ name, text }) {
   const item = data.find((item) => item.name === name);
 
   if (!item) {
@@ -59,7 +61,7 @@ export default function Icon({ name }) {
   return (
     <div className="icon">
       <img src={item.icon} alt={`${item.name} logo`} />
-      <p>{item.name}</p>
+      { text && <p>{item.name}</p> }
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import './Footer.css';
-import Icon from './Icon';
+import Icon from '../components/Icon';
 
 const socials = [
   { url: "https://linked.in/kaitrice/", icon: <Icon name={"linkedin"} /> },
@@ -11,7 +11,7 @@ export default function Footer() {
 
   return (
     <div id='footer'>
-      <h2>Let's Connect!</h2>
+      {/* <h2>Let's Connect!</h2>
       <p>Want to work together or have any questions? <br/>I'd love to hear from you!</p>
       <div className='socials'>
         {socials.map((social, index) => (
@@ -25,7 +25,7 @@ export default function Footer() {
             {social.icon}
           </a>
         ))}
-      </div>
+      </div> */}
       <div className='disclaimer'>
         <p>Kait Rice © {year}</p>
         <p className='small'>Designed in Figma and coded in Visual Studio Code. <br/>Built with React.js and CSS, deployed with GitHub Pages.</p>

@@ -7,8 +7,8 @@
 }
 
 .icon img {
-  width: 48px;
-  height: 48px;
+  width: 32px;
+  height: 32px;
 }
 
 .icon p {
@@ -21,22 +21,25 @@
 @media only screen and (min-width: 768px) { 
   .icon {
     width: 5em;
-    opacity: 60%;
-    scale: .8;
+    opacity: 40%;
     transition-duration: 300ms;
+    scale: .8;
   }
-
+  .icon img {
+    width: 48px;
+    height: 48px;
+  }
   .icon p {
-    opacity: 0;
+    visibility: hidden;
   }
   
-  .icon:hover {
+  .icon:hover, .icon:hover p {
     opacity: 100%;
     scale: 1.1;
-    padding-bottom: 1em;
   }
 
   .icon:hover p {
-    opacity: 1;
+    /* opacity: 1; */
+    visibility: visible;
   }
 }

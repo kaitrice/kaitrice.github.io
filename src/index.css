@@ -29,26 +29,39 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 h1 { 
-  font-size: calc(36px + 6vmin); 
+  font-size: calc(36px + 4vmin); 
   font-weight: 900;
 }
 h2 { 
-  font-size: calc(28px + 5vmin); 
+  font-size: calc(28px + 1vmin); 
   font-weight: 800;
 }
 h3 { 
-  font-size: calc(24px + 3vmin); 
+  font-size: calc(24px + 2vmin); 
   font-weight: 800;
+  text-decoration: underline;
 }
 h4 { 
-  font-size: calc(18px + 2vmin); 
-  font-weight: 700;
-}
-h5 { 
-  font-size: calc(14px + 2vmin); 
+  font-size: calc(18px + 1vmin); 
   font-weight: 700;
 }
 p { 
   font-size: calc(14px + 1vmin); 
   font-weight: 500;
+}
+
+@media only screen and (min-width: 768px) {
+  h1 { 
+    font-size: calc(36px + 6vmin); 
+    font-weight: 900;
+  }
+  h2 { 
+    font-size: calc(28px + 5vmin); 
+    font-weight: 800;
+  }
+  h3 { 
+    font-size: calc(24px + 3vmin); 
+    font-weight: 800;
+    text-decoration: underline;
+  }
 }

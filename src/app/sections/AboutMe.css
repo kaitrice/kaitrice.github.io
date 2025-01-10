@@ -1,21 +1,18 @@
 #about {
-  background-color: var(--orange);
+  background-color: var(--cream);
   min-height: 80vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  color: var(--cream);
-  padding: 4em;
+  gap: 4em;
+  color: var(--orange);
+  padding: 4em 2em;
 }
 
-
-#bio {
+#intro, #tech-stack {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 1em;
+  gap: .5em;
 }
 
 /* Hobbies */
@@ -25,4 +22,11 @@
 
 #redbull {
   cursor:url(../../assets/cursors/redbull.png), auto;
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 768px) { 
+  #about {
+    padding: 6em 20%;
+  }
 }
