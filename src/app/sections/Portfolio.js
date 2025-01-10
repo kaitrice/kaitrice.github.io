@@ -107,18 +107,6 @@ const apps = [
     ],
     year: 2024,
   },
-  {
-    name: "Color Match",
-    cover: colorMatch,
-    description: "A color-guessing game designed to challenge your perception of color shades. It provides an engaging way to test and improve color recognition skills through intuitive gameplay.",
-    languages: [
-      "react",
-      "css",
-    ],
-    links: [
-    ],
-    year: 2023,
-  },
   // {
   //   name: "title",
   //   cover: wwxs,
@@ -152,6 +140,21 @@ const websites = [
     links: [
       { name: "demo", url: "https://youtube.com/shorts/_5EAGs0iQbY" },
       { name: "github", url: "https://github.com/GearyER/WWXS" },
+    ],
+    year: 2023,
+  },
+  {
+    name: "Color Match",
+    cover: colorMatch,
+    description: "A color-guessing game designed to challenge your perception of color shades. It provides an engaging way to test and improve color recognition skills through intuitive gameplay.",
+    languages: [
+      "php",
+      "javascript",
+      "html",
+      "css",
+    ],
+    links: [
+      { name: "github", url: "https://github.com/kaitrice/guess-the-color" },
     ],
     year: 2023,
   },

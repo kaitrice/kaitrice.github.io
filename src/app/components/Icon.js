@@ -24,6 +24,7 @@ import zendesk from "../../assets/icons/icons8-zendesk.svg";
 import linkedin from "../../assets/icons/icons8-linkedin.svg";
 import github from "../../assets/icons/icons8-github.svg";
 import open from "../../assets/icons/up-right-from-square-solid.svg"
+import php from "../../assets/icons/php-logo-svgrepo-com.svg"
 
 const data = [
   { name: "javascript", icon: javascript },
@@ -34,7 +35,7 @@ const data = [
   { name: "figma", icon: figma },
   { name: "expo", icon: expo },
   { name: "express", icon: express },
-  { name: "html5", icon: html5 },
+  { name: "html", icon: html5 },
   { name: "react", icon: reactLogo },
   { name: "java", icon: java },
   { name: "mysql", icon: mysql },
@@ -50,6 +51,7 @@ const data = [
   { name: "linkedin", icon: linkedin },
   { name: "github", icon: github },
   { name: "open", icon: open },
+  { name: "php", icon: php },
 ];
 
 export default function Icon({ name, text }) {
