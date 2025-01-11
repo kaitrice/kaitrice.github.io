@@ -7,8 +7,9 @@
 }
 
 .icon img {
-  width: 32px;
-  height: 32px;
+  /* width: 32px; */
+  width: 2em;
+  height: auto;
 }
 
 .icon p {
@@ -26,8 +27,8 @@
     scale: .8;
   }
   .icon img {
-    width: 48px;
-    height: 48px;
+    width: 3em;
+    height: auto;
   }
   .icon p {
     visibility: hidden;

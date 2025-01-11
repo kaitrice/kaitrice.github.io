@@ -13,6 +13,27 @@
   font-size: calc(18px + 1.5vmin);
 }
 
+#process section {
+  border-left: .2em solid var(--pink);
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  padding: 0 1em;
+  margin: 0 .8em;
+}
+
+.step {
+  margin-bottom: .5em;
+}
+
+.step:last-child() {
+  margin-bottom: 0;
+}
+
+#process h5 { font-size: calc(10px + 1vmin); }
+#process h6 { font-size: calc(14px + 1vmin); }
+#process p { font-size: calc(6px + 1vmin); }
+
 /* Medium devices such as tablets (768px and up) */
 @media only screen and (min-width: 768px) { 
   #process {

@@ -58,6 +58,18 @@ export default function AnimatedTypewriter({ messages, typingSpeed = 0.1, eraseS
       {displayedCharacters.map((char, index) => (
         <AnimChar key={index} character={char} delay={0} />
       ))}
+      <motion.span
+        initial={{ opacity: 1 }}
+        animate={{ opacity: 0 }}
+        exit={{ opacity: 0 }}
+        transition={{
+          duration: .5,
+          repeat: Infinity,
+        }}
+        style={{ color: "var(--orange)" }}
+      >
+        _
+      </motion.span>
     </>
   );
 }

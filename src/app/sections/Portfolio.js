@@ -71,16 +71,16 @@ export default function Portfolio() {
 }
 
 /* DATA, default rank 10 */
-
 const apps = [
   {
     name: "Diono® Safety Hub",
     cover: safetyHub,
-    description: "The Safety Hub app is a mobile resource center for parents, offering region-specific car seat safety information and support. Built with React Native and Expo, it features offline access, real-time updates, and integrations with BigCommerce, Zendesk, and Firebase APIs. The app combines user-friendly design with reliable data to empower parents in making informed decisions.",
+    description: "Designed for busy parents & caregivers, this Safety Hub empowers parents to make confident decisions about car seat safety. With support for offline access, seamless API integrations, and real-time updates, it delivers critical information to parents right when they need it most. With a planned phased rollout, the app aims to balance reliability with innovative features for continuous improvement.",
     languages: [
       "figma",
       "react",
       "expo",
+      "nodejs",
       "bigcommerce",
       "zendesk",
       "firebase",
@@ -107,26 +107,13 @@ const apps = [
     ],
     year: 2024,
   },
-  // {
-  //   name: "title",
-  //   cover: wwxs,
-  //   description: "lorem ipsum",
-  //   languages: [
-  //     "figma",
-  //   ],
-  //   links: [
-  //     { name: "demo", url: "" },
-  //     { name: "github", url: "" },
-  //   ],
-  //   year: 2024,
-  // }
 ];
 
 const websites = [
   {
     name: "Water Weather Station",
     cover: wwxs,
-    description: "Project funded and adopted by America's Navy® 2024. IoT project involving a buoy device for real-time water data collection (salinity, turbidity, temperature, insolation, and soon dissolved oxygen) running on an ESP32 Sparkfun, a mobile app connecting via Bluetooth for data retrieval and uploading via API, and a responsive website visualizing data from multiple buoys aiding in the assessment of water health.",
+    description: "WWXS is an innovative IoT system designed to monitor bodies of water using sensor-equipped buoys. Sensors collect critical environmental data, such as salinity (saltiness), turbidity (cloudiness), temperature, and insolation (sunlight exposure), processed through a PostgreSQL-backed API and displayed on a dynamic Angular web interface visualizing insights across multiple buoys aiding in the assessment of water health.",
     languages: [
       "docker",
       "git",
@@ -158,19 +145,6 @@ const websites = [
     ],
     year: 2023,
   },
-  // {
-  //   name: "title",
-  //   cover: wwxs,
-  //   description: "lorem ipsum",
-  //   languages: [
-  //     "figma",
-  //   ],
-  //   links: [
-  //     { name: "demo", url: "" },
-  //     { name: "github", url: "" },
-  //   ],
-  //   year: 2024,
-  // }
 ];
 
 const projects = [
