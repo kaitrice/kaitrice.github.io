@@ -1,6 +1,6 @@
 import AnimatedTypewriter from '../components/animTyping';
 import Icon from '../components/Icon';
-import pdf from '../../assets/KaitlynRice-Resume.pdf'
+import pdf from '../../assets/KaitlynRice-Portfolio_Resume.pdf'
 import './Hero.css';
 import { motion } from "motion/react";
 
