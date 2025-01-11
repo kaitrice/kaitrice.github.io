@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "1.2.2",
   "private": true,
-  "homepage": "https://kaitrice.github.io/",
+  "homepage": "https://kaitrice.github.io/portfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.0.1",
