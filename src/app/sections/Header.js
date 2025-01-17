@@ -1,21 +1,17 @@
 import './Header.css';
 import { motion, useSpring, useScroll } from "motion/react"
-// import logo from '../../assets/logo64.svg'
-// import fullLogo from '../../assets/full-logo.svg'
 
 const navigation = [
   {name: "Home", id: "#"},
   {name: "About", id: "#about"},
-  {name: "Process", id: "#process"},
   {name: "Portfolio", id: "#portfolio"},
-  // {name: "Contact", id: "#footer"},
+  {name: "Process", id: "#process"},
 ]
 
 export default function Header() {
   return (
     <div id='header'>
       <div className='content'>
-        {/* <img src={logo} alt='KR logo'/> */}
         <div id='logo' />
         <div className='nav-container'>
           {navigation.map((item, index) => (

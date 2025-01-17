@@ -3,33 +3,47 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: .5em;
+  gap: .25em;
 }
 
 .icon img {
-  /* width: 32px; */
   width: 2em;
   height: auto;
 }
 
+.sm img {
+  width: 1.5em;
+}
+
+.lg img {
+  width: 3em;
+}
+
 .icon p {
-  font-size: calc(4px + 1vmin);
+  font-size: calc(8px + 1vmin);
   font-weight: 700;
   text-transform: uppercase;
 }
 
-/* Medium devices such as tablets (768px and up) */
-@media only screen and (min-width: 768px) { 
+@media only screen and (min-width: 768px) {
   .icon {
-    width: 5em;
     opacity: 40%;
     transition-duration: 300ms;
     scale: .8;
   }
+
   .icon img {
     width: 3em;
-    height: auto;
   }
+  
+  .sm img {
+    width: 2em;
+  }
+  
+  .lg img {
+    width: 5em;
+  }
+
   .icon p {
     visibility: hidden;
   }

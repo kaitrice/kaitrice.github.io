@@ -22,9 +22,9 @@ function Program({ item }) {
                 rel="noopener noreferrer"
               >
                 {link.name === "github" ? (
-                  <Icon name="github" />
+                  <Icon name="github" size={"sm"} />
                 ) : (
-                  <Icon name="open" />
+                  <Icon name="open" size={"sm"} />
                 )}
               </a>
             ))}
@@ -93,13 +93,13 @@ const apps = [
     cover: panicPal,
     description: "Mobile app aiming to provide support for individuals experiencing panic attacks. Using OpenAI-powered chatbot designed to offer empathetic and supportive conversations to help manage panic attacks effectively.",
     languages: [
-      "git", 
+      // "git", 
       "figma", 
       "expo", 
       "react", 
       "nodejs", 
       "firebase", 
-      "azure",
+      // "azure",
     ],
     links: [
       { name: "demo", url: "https://youtu.be/Ueqlpl4Sl4U" },
@@ -116,7 +116,7 @@ const websites = [
     description: "WWXS is an innovative IoT system designed to monitor bodies of water using sensor-equipped buoys. Sensors collect critical environmental data, such as salinity (saltiness), turbidity (cloudiness), temperature, and insolation (sunlight exposure), processed through a PostgreSQL-backed API and displayed on a dynamic Angular web interface visualizing insights across multiple buoys aiding in the assessment of water health.",
     languages: [
       "docker",
-      "git",
+      // "git",
       "express",
       "postgresql",
       "nodejs",

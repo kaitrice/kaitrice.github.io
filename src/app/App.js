@@ -1,16 +1,13 @@
 import './App.css';
 import AboutMe from './sections/AboutMe';
-// import About from './sections/old/About';
 import Portfolio from './sections/Portfolio';
 import Footer from './sections/Footer';
 import Header from './sections/Header';
 import Hero from './sections/Hero';
-// import Skills from './data/skills';
 import { MotionConfig } from "framer-motion"
 import Process from './sections/Process';
 
-// const data = [<Hero />, <About />, <Skills />, <Portfolio />, <Footer />];
-const data = [<Hero />, <AboutMe />, <Process />, <Portfolio />,<Footer />];
+const data = [<Hero />, <AboutMe />, <Portfolio />, <Process />, <Footer />];
 
 function App() {
   return (

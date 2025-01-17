@@ -56,14 +56,14 @@ const data = [
   { name: "postman", icon: postman },
 ];
 
-export default function Icon({ name, text }) {
+export default function Icon({ name, text, size }) {
   const item = data.find((item) => item.name === name);
 
   if (!item) {
     return <div className="icon">Icon not found</div>;
   }
   return (
-    <div className="icon">
+    <div className={`icon ${size}`}>
       <img src={item.icon} alt={`${item.name} logo`} />
       { text && <p>{item.name}</p> }
     </div>

@@ -12,8 +12,6 @@
 #portfolio > section {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-  /* align-items: center; */
   gap: 2em;
 }
 
@@ -39,6 +37,7 @@
 .program-links {
   display: flex;
   flex-direction: row;
+  gap: .5em;
 }
 
 .info > p {
@@ -75,7 +74,7 @@
   }
   .langs {
     justify-content: end;
-    gap: .1em;
+    gap: 1.5em;
   }
   .cover {
     width: 40%;

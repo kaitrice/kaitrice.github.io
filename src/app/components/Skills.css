@@ -7,13 +7,11 @@
   align-items: center;
   gap: 1em;
   padding: 1em;
-  /* background-color: var(--cream); */
-  /* color: var(--blue); */
-  /* height: 5em; */
 }
 
 @media only screen and (min-width: 768px) {
   #skills {
     padding: 1em 0 0 0;
+    gap: 2em;
   }
 }
