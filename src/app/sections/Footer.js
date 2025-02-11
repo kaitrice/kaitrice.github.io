@@ -7,7 +7,7 @@ export default function Footer() {
     <div id='footer'>
       <div className='disclaimer'>
         <p>Kait Rice © {year}</p>
-        <p className='small'>Designed in Figma and coded in Visual Studio Code. <br/>Built with React.js and CSS, deployed with GitHub Pages.</p>
+        <p className='small'>Designed in Figma and coded in Visual Studio Code. <br/>Built with React.js and CSS, deployed with Vercel.</p>
       </div>
     </div>
   );
